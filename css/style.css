@@ -1,0 +1,182 @@
+body
+{
+    background-image: url('bg.png');
+    background-size: cover;
+}
+
+h1
+{
+    font-family: sans-serif;
+    color: #fff;
+    padding: 160px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Login module */
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #005aff;
+   margin: -350px 0px 0px 300px;
+    opacity: 0.9;
+}
+
+.login-block h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block p {
+    font-family: sans-serif;
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 0 10px 0 10px;
+    outline: none;
+}
+
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #005aff;
+}
+
+.login-block input[name='log']
+{
+    width: 100%;
+    height: 40px;
+    background: #005aff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #0040b5;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block input[name='log']:hover {
+    background: #0040b5;
+}
+/* End of login module */
+
+/***************************************************************/
+
+/* Register module */
+.reg-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #005aff;
+    margin: 30px 0px 0px 300px;
+    opacity: 0.9;
+}
+
+.reg-block h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.reg-block p {
+    font-family: sans-serif;
+    text-align: left;
+    color: #000;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.reg-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 0 10px 0 10px;
+    outline: none;
+}
+
+
+.reg-block input:active, .reg-block input:focus {
+    border: 1px solid #005aff;
+}
+
+.reg-block select {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 0 10px 0 10px;
+    outline: none;
+}
+
+
+.reg-block select:active, .reg-block select:focus {
+    border: 1px solid #005aff;
+}
+
+.reg-block input[name='regi']
+{
+    width: 100%;
+    height: 40px;
+    background: #005aff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #0040b5;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.reg-block input[name='regi']:hover {
+    background: #0040b5;
+}
+/* End of register module */
+
+footer p {
+    font-family: sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 293px;
+}
